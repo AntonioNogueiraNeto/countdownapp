@@ -2,7 +2,7 @@ const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
-const sextaFeiras = "1 Jul 2022";
+const sextaFeiras = "01 jan 2023";
 
 function countdown() {
   const whantedDate = new Date(sextaFeiras);
